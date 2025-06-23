@@ -43,8 +43,7 @@ Download the installer from Tesseract-OCR GitHub. Remember the installation path
 
 Crucial Step: Update the pytesseract.pytesseract.tesseract_cmd variable in analyze_screenshots.py if Tesseract is not in your system's PATH. For example:
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' # For Windows
-# Or just 'tesseract' if it's in your PATH
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' # For Windows. Or just 'tesseract' if it's in your PATH
 
 ### Usage
 Prepare Your Data:
@@ -106,7 +105,7 @@ Time Allocation Heuristics: The current method for allocating hours based on scr
 
 User-Specific Analysis: Process data for multiple users generating individual reports.
 
-Interactive Dashboard: Instead of static CSVs and PNGs, use a library like Dash or Streamlit to create an an interactive web dashboard for real-time analysis and filtering.
+Interactive Dashboard: Instead of static CSVs and PNGs, use a library like Dash or Streamlit to create an an interactive web dashboard for real-time analysis and filtering. 
 
 Machine Learning for Categorization: For highly nuanced activity, train a machine learning model (e.g., a text classifier) on a labeled dataset of screenshots to categorize work more accurately than simple keyword matching.
 

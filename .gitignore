@@ -1,0 +1,9 @@
+extracted_screenshots/*
+zipped_screenshot_folders/*
+reports/*
+data/*
+timedoctor_analyzer.egg-info
+work_categories.json
+
+# System files
+.DS_Store

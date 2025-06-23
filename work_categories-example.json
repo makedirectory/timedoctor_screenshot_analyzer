@@ -1,0 +1,46 @@
+{
+    "slack_meeting": {
+        "keywords": ["slack", "call", "zoom", "teams"],
+        "is_real_work": true
+    },
+    "figma_design": {
+        "keywords": ["figma", "design", "prototype", "wireframe"],
+        "is_real_work": true
+    },
+    "phpstorm_dev": {
+        "keywords": ["phpstorm", "php", "laravel", "symfony", "code"],
+        "is_real_work": true
+    },
+    "vs_code_dev": {
+        "keywords": ["vs code", "vscode", "javascript", "python", "react"],
+        "is_real_work": true
+    },
+    "jira_task": {
+        "keywords": ["jira", "ticket", "scrum", "kanban"],
+        "is_real_work": true
+    },
+    "documentation": {
+        "keywords": ["notion", "confluence", "docs", "documentation", "wiki"],
+        "is_real_work": true
+    },
+    "website_fake": {
+        "keywords": ["example.com"],
+        "is_real_work": false
+    },
+    "time_doctor_idle_popup": {
+        "keywords": ["are you still working", "idle time", "take a break"],
+        "is_real_work": false
+    },
+    "browser_general": {
+        "keywords": ["chrome", "firefox", "edge", "safari"],
+        "is_real_work": true
+    },
+    "email": {
+        "keywords": ["outlook", "gmail", "mail"],
+        "is_real_work": true
+    },
+    "unidentified": {
+        "keywords": [],
+        "is_real_work": null
+    }
+}
